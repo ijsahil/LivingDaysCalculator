@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bgColor"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_your_description"
+        android:textSize="24sp"
+        android:textColor="@color/textColor"
+        android:textStyle="normal"
+        android:padding="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_description"
+        android:textSize="24sp"
+        android:textColor="@color/textColor"
+
+        android:background="@color/ageBgColor"
+        android:padding="20dp"
+        android:textStyle="normal"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/in_days_description"
+        android:textSize="24sp"
+        android:textColor="@color/textColor"
+        android:textStyle="normal"
+        android:padding="20dp"
+        ></TextView>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btnBgColor"
+        android:text="Select Date"
+        android:elevation="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDisplayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:text="Selected your Birthday Date" />
+    <TextView
+        android:id="@+id/tvDisplayDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:text="Days display here" />
+</LinearLayout>
